@@ -56,10 +56,25 @@ button:active{
     background-color: hsl(41, 83%, 68%)
 }
 
-@media only screen and (max-width: 600px) {
-body{
-    font-size : 2px;
-}
+
     
+    }
+@media (max-width: 600px) {
+    button ,#kyes{
+        width: 20vw;
+        height: 20vw;
+        font-size: 1.5rem;
+    }
+    
+    #display {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    button {
+        width: 25px;
+        height: 25px;
+        font-size: 1.2rem;
     }
         
